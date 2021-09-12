@@ -12,7 +12,7 @@ The first step in any automatic speech recognition system is to extract features
 ## Task 2:
 In this task we had to build a web application using the machine learning models used in task 1.
 
-![Alt text](screenshots/2.png?raw=true "task2")
+![Alt text](screenshots/2.jpg?raw=true "task2")
 
 **Brief Explanation:**
 To build the web application, Django framework was used. For this, we had to first create a model API so that we could integrate the models with the website. Below is a screenshot of how the frontend page looks –
