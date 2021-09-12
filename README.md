@@ -16,7 +16,7 @@ In this task we had to build a web application using the machine learning models
 
 **Brief Explanation:**
 To build the web application, Django framework was used. For this, we had to first create a model API so that we could integrate the models with the website. Below is a screenshot of how the frontend page looks –
-The website covers a brief intro about speech emotion recognition. It has the option to upload the audio file (in .wav format) and, in the backend, the uploaded audio file is firstly stored in a media folder. It is then pre-processed using librosa for feature extraction. After that, these extracted features are used by the trained machine learning models to predict the emotions along with the confidence rating. The models (trained on 10-folds of data) take about 15 secs for prediction (may in other local machines depending on CPU power).
+The website covers a brief intro about speech emotion recognition. It has the option to upload the audio file (in .wav format) and, in the backend, the uploaded audio file is firstly stored in a media folder. It is then pre-processed using librosa for feature extraction. After that, these extracted features are used by the trained machine learning models to predict the emotions along with the confidence rating. The models (trained on 10-folds of data) take about 15 secs for prediction (may vary in other local machines depending on CPU power).
 
 ## Running this project
 To get this project up and running you should start by having Python installed on your computer. It's advised you create a virtual environment to store your projects dependencies separately. 
